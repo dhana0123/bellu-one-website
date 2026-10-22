@@ -107,7 +107,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={productFeatures.alerts.highlights} />
                             </div>
-                            <div className="feature-gradient-card feature-gradient-card--threat relative flex aspect-auto min-h-[27rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
+                            <div className="feature-gradient-card feature-gradient-card--threat feature-vintage relative flex aspect-auto min-h-[27rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
                                 <ThreatDiscoveryIllustration />
                             </div>
                         </div>
@@ -127,7 +127,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={productFeatures.timeline.highlights} />
                             </div>
-                            <div className="feature-gradient-card feature-gradient-card--twin relative flex aspect-auto min-h-[28rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
+                            <div className="feature-gradient-card feature-gradient-card--twin feature-vintage relative flex aspect-auto min-h-[28rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
                                 <DigitalTwinIllustration />
                             </div>
                         </div>
@@ -147,7 +147,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={productFeatures.integrations.highlights} />
                             </div>
-                            <div className="feature-gradient-card feature-gradient-card--remediation relative flex aspect-auto min-h-[33rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
+                            <div className="feature-gradient-card feature-gradient-card--remediation feature-vintage relative flex aspect-auto min-h-[33rem] overflow-hidden rounded-3xl border p-3 md:col-span-3 lg:aspect-square lg:min-h-0">
                                 <RemediationIllustration />
                             </div>
                         </div>
@@ -168,7 +168,7 @@ function SecurityGraphIllustration() {
 
     return (
         <div aria-hidden="true" className="absolute inset-4 flex items-center justify-center sm:inset-8">
-            <div className="relative w-full max-w-lg rounded-2xl border border-blue-500/20 bg-card p-4 sm:p-6">
+            <div className="relative w-full max-w-lg rounded-2xl border border-violet-500/25 bg-card p-4 sm:p-6">
                 <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
                     <div>
                         <p className="text-sm font-semibold">Infrastructure graph</p>
@@ -180,17 +180,17 @@ function SecurityGraphIllustration() {
                     </span>
                 </div>
                 <div className="relative mt-5 h-56 overflow-hidden rounded-xl bg-muted/50 sm:h-64">
-                    <svg className="absolute inset-0 size-full" viewBox="0 0 400 240" fill="none">
+                    <svg className="absolute inset-0 size-full text-violet-500" viewBox="0 0 400 240" fill="none">
                         <path d="M78 54L200 120L322 54M78 186L200 120L322 186M78 54L78 186M322 54L322 186" stroke="currentColor" strokeOpacity=".18" strokeWidth="2" />
-                        <path d="M78 54L200 120L322 54M78 186L200 120" stroke="#10b981" strokeOpacity=".55" strokeWidth="2" strokeDasharray="5 6" />
+                        <path d="M78 54L200 120L322 54M78 186L200 120" stroke="currentColor" strokeOpacity=".65" strokeWidth="2" strokeDasharray="5 6" />
                     </svg>
                     {nodes.map(({ label, icon: Icon, position }) => (
                         <div key={label} className={`absolute ${position} flex items-center gap-2 rounded-lg border bg-card px-2.5 py-2 motion-safe:animate-pulse sm:px-3`}>
-                            <Icon className="size-4 text-emerald-600" />
+                            <Icon className="size-4 text-violet-600 dark:text-violet-400" />
                             <span className="text-[10px] font-medium sm:text-xs">{label}</span>
                         </div>
                     ))}
-                    <div className="absolute left-1/2 top-1/2 flex size-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-2xl bg-zinc-900 text-white ring-4 ring-emerald-500/15 dark:bg-zinc-100 dark:text-zinc-900">
+                    <div className="absolute left-1/2 top-1/2 flex size-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-2xl bg-violet-950 text-white ring-4 ring-violet-500/20 dark:bg-violet-200 dark:text-violet-950">
                         <Network className="size-7" />
                     </div>
                 </div>

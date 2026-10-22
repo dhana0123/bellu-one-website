@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { HeroHeader } from '@/components/hero-section-9-header'
 
 export default function HeroSection() {
@@ -32,28 +31,6 @@ export default function HeroSection() {
                             />
                         </div>
 
-                        <div
-                            className="relative isolate overflow-hidden rounded-3xl px-4 pt-4 max-lg:-mx-4 md:px-6 md:pt-6 lg:px-8 lg:pt-8"
-                            style={{
-                                backgroundImage: 'url(/hero-preview-bg.webp)',
-                                backgroundPosition: 'center',
-                                backgroundSize: 'cover',
-                            }}
-                        >
-                            <div className="bg-background ring-foreground/6.5 relative z-10 overflow-hidden rounded-t-2xl p-2 shadow-lg ring">
-                                <div className="border-border/70 aspect-[1636/768] overflow-hidden rounded-t-xl border">
-                                    <Image
-                                        src="/security-dashboard-preview-v2.png"
-                                        alt="Security dashboard showing open issues, issue severity, average issue age, and security score"
-                                        width={1636}
-                                        height={768}
-                                        priority
-                                        className="h-full w-full object-cover object-top"
-                                    />
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </section>
             </main>

@@ -37,7 +37,7 @@ const footerLinks = [
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white [--border:#27272a] [--foreground:#fff] [--muted-foreground:#a1a1aa]">
+        <footer className="bg-violet-950 text-white [--border:#3b2d50] [--foreground:#fff] [--muted-foreground:#c4b5d0]">
             <div className="mx-auto max-w-7xl space-y-16 px-6 pb-6 pt-32">
                 <div className="grid grid-cols-2 gap-x-3 gap-y-12 sm:grid-cols-4 lg:grid-cols-6">
                     <div className="col-span-full lg:col-span-3">
@@ -57,7 +57,7 @@ export default function Footer() {
                                     <li key={index}>
                                         <Link
                                             href={link.href}
-                                            className="text-white/65 text-sm duration-150 hover:text-white"
+                                            className="text-white/65 text-sm duration-150 hover:text-violet-300"
                                         >
                                             {link.label}
                                         </Link>

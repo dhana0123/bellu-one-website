@@ -78,7 +78,7 @@
 
 html {
   scroll-behavior: smooth;
-  zoom: 1.15;
+  zoom: 90%;
 }
 
 body {
@@ -101,11 +101,11 @@ body {
 }
 
 .feature-gradient-card--graph {
-  border-color: rgb(134 239 172 / 38%);
+  border-color: rgb(196 181 253 / 48%);
   background-image:
-    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(187 247 208 / 58%), transparent 100%),
-    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(220 252 231 / 76%), transparent 100%),
-    linear-gradient(180deg, #f7fcf7 0%, #eaf7ed 52%, #e2f3e6 100%);
+    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(221 214 254 / 62%), transparent 100%),
+    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(237 233 254 / 78%), transparent 100%),
+    linear-gradient(180deg, #fcfaff 0%, #f2edff 52%, #e9e0fb 100%);
 }
 
 .feature-gradient-card--threat {
@@ -133,11 +133,11 @@ body {
 }
 
 .dark .feature-gradient-card--graph {
-  border-color: rgb(74 222 128 / 24%);
+  border-color: rgb(167 139 250 / 30%);
   background-image:
-    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(20 83 45 / 44%), transparent 100%),
-    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(22 101 52 / 32%), transparent 100%),
-    linear-gradient(180deg, #17221b 0%, #17251c 52%, #1b2a20 100%);
+    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(91 33 182 / 32%), transparent 100%),
+    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(76 29 149 / 28%), transparent 100%),
+    linear-gradient(180deg, #21172d 0%, #251a35 52%, #2a1d3d 100%);
 }
 
 .dark .feature-gradient-card--threat {
@@ -162,6 +162,17 @@ body {
     radial-gradient(ellipse 120% 22% at 28% 23%, rgb(124 45 18 / 40%), transparent 100%),
     radial-gradient(ellipse 120% 26% at 70% 52%, rgb(120 53 15 / 32%), transparent 100%),
     linear-gradient(180deg, #282019 0%, #2b2118 52%, #302419 100%);
+}
+
+.feature-vintage {
+  border-color: #b7b3aa;
+  background-color: #d4d1c9;
+  background-image:
+    repeating-linear-gradient(0deg, rgb(62 58 51 / 3%) 0 1px, transparent 1px 4px),
+    linear-gradient(135deg, #e7e4dc 0%, #c7c4bc 100%);
+  background-size: auto;
+  animation: none;
+  filter: grayscale(1) sepia(0.12) contrast(0.96);
 }
 
 @keyframes feature-gradient-drift {

@@ -1,0 +1,251 @@
+🔑 Got authentication token
+
+🔍 Fetching deployment info for: 9doZCpn5MftGxn4xSZh6YhLh6Z3E
+   Resolving teams...
+   Trying 9doZCpn5MftGxn4xSZh6YhLh6Z3E in personal account...
+   Trying dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E in personal account...
+✅ Got deployment info
+
+📦 Deployment ID:  dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E
+🌐 Deployment URL: bellu-search-ap-landing-page-diexec22h-bsanthoshdhanas-projects.vercel.app
+📁 Project:        bellu-search-ap-landing-page
+
+📋 Fetching file tree from API...
+
+✅ Got file tree (16 top-level entries)
+
+📁 Output directory: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source
+
+🗑️  Clearing previous download...
+
+⬇️  Downloading files...
+   (Use --verbose to see detailed progress)
+
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\about\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\admin\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\admin\login\route.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\admin\logout\route.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\demo-requests\route.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\careers\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\company\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\get-demo\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\privacy\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\digital-twin\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\remediation\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\security-graph\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\threat-discovery\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\terms\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\globals.css
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\icon.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\layout.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\motion-primitives\infinite-slider.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\beacon.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\bolt.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\claude-ai.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\gemini.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\hulu.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\openai.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\spotify.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\supabase.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\vercel.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\button.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\card.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\chart.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\input.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\label.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\admin-auth-forms.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\call-to-action-1.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\call-to-action-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\content-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\content-4.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\exploitation-timeline.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-4.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-5.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-7.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\footer-1.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\footer-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6-header.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6-logo-cloud.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9-header.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9-logo-cloud.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\logo.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\policy-page.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\pricing-1.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\pricing-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\product-detail.tsx
+❌ Failed to download C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\products-section.tsx: Error: Unexpected API response (no data field): {"data":""}
+❌ Failed to download C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\security-features.tsx: Error: Unexpected API response (no data field): {"data":""}
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\stats-1.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\stats-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\team-2.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\testimonials-1.tsx
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\hooks\use-media.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\admin-auth.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\demo-requests.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\product-features.ts
+❌ Failed to download C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\products.ts: Error: Unexpected API response (no data field): {"data":""}
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\utils.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\feature-gradient-lavender.png
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\feature-gradient-sky.png
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\file.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\globe.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\handoffs-feature.jpg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\hero-preview-bg.webp
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\hero-wallpaper.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\next.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\santhosh-founder.png
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\security-dashboard-preview-v2.png
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\security-dashboard-preview.png
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\vercel.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\window.svg
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\AGENTS.md
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\README.md
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components.json
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\eslint.config.mjs
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\next-env.d.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\next.config.ts
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\package-lock.json
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\package.json
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\pnpm-lock.yaml
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\tsconfig.json
+✅ Downloaded: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\tsconfig.tsbuildinfo
+
+🎉 All files processed successfully!
+
+📊 Running comparison...
+
+📁 Total files: 90
+   ✅ Downloaded: 90
+   ⏭️  Skipped: 0
+   ❌ Failed: 3
+💾 Total size: 4.96 MB
+
+📈 File types breakdown:
+   tsx               56 files
+   ts                10 files
+   svg                7 files
+   png                5 files
+   json               4 files
+   md                 2 files
+   css                1 files
+   jpg                1 files
+   webp               1 files
+   mjs                1 files
+
+🌳 File structure tree:
+
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\AGENTS.md
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\about\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\admin\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\admin\login\route.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\admin\logout\route.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\api\demo-requests\route.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\careers\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\company\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\get-demo\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\globals.css
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\icon.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\layout.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\privacy\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\digital-twin\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\remediation\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\security-graph\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\products\threat-discovery\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\app\terms\page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components.json
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\admin-auth-forms.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\call-to-action-1.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\call-to-action-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\content-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\content-4.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\exploitation-timeline.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-4.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-5.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\features-7.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\footer-1.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\footer-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6-header.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6-logo-cloud.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-6.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9-header.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9-logo-cloud.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\hero-section-9.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\logo.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\policy-page.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\pricing-1.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\pricing-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\product-detail.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\stats-1.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\stats-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\team-2.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\testimonials-1.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\button.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\card.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\chart.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\input.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\label.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\motion-primitives\infinite-slider.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\beacon.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\bolt.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\claude-ai.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\gemini.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\hulu.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\openai.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\spotify.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\supabase.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\ui\svgs\vercel.tsx
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\eslint.config.mjs
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\hooks\use-media.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\admin-auth.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\demo-requests.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\product-features.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\utils.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\next-env.d.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\next.config.ts
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\package-lock.json
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\package.json
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\pnpm-lock.yaml
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\feature-gradient-lavender.png
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\feature-gradient-sky.png
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\file.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\globe.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\handoffs-feature.jpg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\hero-preview-bg.webp
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\hero-wallpaper.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\next.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\santhosh-founder.png
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\security-dashboard-preview-v2.png
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\security-dashboard-preview.png
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\vercel.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\public\window.svg
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\README.md
+├── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\tsconfig.json
+└── 📄 C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\tsconfig.tsbuildinfo
+
+❌ Failed downloads: 3
+   C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\products-section.tsx
+   C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\security-features.tsx
+   C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\products.ts
+
+🔄 Retrying failed downloads...
+
+   ⏭️ Could not find tree entry for: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\products-section.tsx
+   ⏭️ Could not find tree entry for: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\components\security-features.tsx
+   ⏭️ Could not find tree entry for: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\source\lib\products.ts
+
+❌ 3 file(s) still failed.
+
+   To retry later: npx tsx src/vercel-deploy-source-downloader.ts --deployment 9doZCpn5MftGxn4xSZh6YhLh6Z3E --retry-failed
+
+✨ Download and verification complete!
+📄 Full log saved to: C:\Users\Sagar\Music\project\bellu-ai-website\out\dpl_9doZCpn5MftGxn4xSZh6YhLh6Z3E\download-log.txt
+   (Use --verbose to see file tree and skipped files)
+

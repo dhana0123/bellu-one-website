@@ -1,26 +1,181 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --background: #faf9f6;
+  --foreground: #20201e;
+  --card: #ffffff;
+  --card-foreground: #20201e;
+  --popover: #ffffff;
+  --popover-foreground: #20201e;
+  --primary: #292824;
+  --primary-foreground: #faf9f6;
+  --secondary: #efeee9;
+  --secondary-foreground: #292824;
+  --muted: #efeee9;
+  --muted-foreground: #77766f;
+  --accent: #efeee9;
+  --accent-foreground: #292824;
+  --destructive: #c44738;
+  --border: #e6e4de;
+  --input: #e6e4de;
+  --ring: #a6a49b;
+  --radius: 0.75rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root.dark {
+  --background: #1c1c1a;
+  --foreground: #f4f2ec;
+  --card: #232320;
+  --card-foreground: #f4f2ec;
+  --popover: #232320;
+  --popover-foreground: #f4f2ec;
+  --primary: #f4f2ec;
+  --primary-foreground: #232320;
+  --secondary: #343430;
+  --secondary-foreground: #f4f2ec;
+  --muted: #343430;
+  --muted-foreground: #aaa89f;
+  --accent: #343430;
+  --accent-foreground: #f4f2ec;
+  --destructive: #e16353;
+  --border: #393934;
+  --input: #393934;
+  --ring: #77766f;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  zoom: 1.15;
 }
 
 body {
+  min-height: 100vh;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-gradient-card {
+  border-color: rgb(148 163 184 / 28%);
+  background-color: #f3f4f6;
+  background-size: 150% 150%;
+  animation: feature-gradient-drift 24s ease-in-out infinite alternate;
+}
+
+.dark .feature-gradient-card {
+  border-color: rgb(148 163 184 / 20%);
+  background-color: #252522;
+}
+
+.feature-gradient-card--graph {
+  border-color: rgb(134 239 172 / 38%);
+  background-image:
+    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(187 247 208 / 58%), transparent 100%),
+    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(220 252 231 / 76%), transparent 100%),
+    linear-gradient(180deg, #f7fcf7 0%, #eaf7ed 52%, #e2f3e6 100%);
+}
+
+.feature-gradient-card--threat {
+  border-color: rgb(147 197 253 / 42%);
+  background-image:
+    radial-gradient(ellipse 120% 22% at 30% 24%, rgb(191 219 254 / 62%), transparent 100%),
+    radial-gradient(ellipse 130% 26% at 66% 58%, rgb(219 234 254 / 76%), transparent 100%),
+    linear-gradient(180deg, #f7faff 0%, #eaf3ff 52%, #e1edfc 100%);
+}
+
+.feature-gradient-card--twin {
+  border-color: rgb(203 213 225 / 70%);
+  background-image:
+    radial-gradient(ellipse 115% 20% at 64% 18%, rgb(226 232 240 / 82%), transparent 100%),
+    radial-gradient(ellipse 120% 24% at 35% 52%, rgb(241 245 249 / 88%), transparent 100%),
+    linear-gradient(180deg, #fafbfc 0%, #f1f3f5 52%, #e9edf1 100%);
+}
+
+.feature-gradient-card--remediation {
+  border-color: rgb(253 186 116 / 48%);
+  background-image:
+    radial-gradient(ellipse 120% 22% at 28% 23%, rgb(254 215 170 / 64%), transparent 100%),
+    radial-gradient(ellipse 120% 26% at 70% 52%, rgb(255 237 213 / 84%), transparent 100%),
+    linear-gradient(180deg, #fffbf6 0%, #fff1e3 52%, #fce8d3 100%);
+}
+
+.dark .feature-gradient-card--graph {
+  border-color: rgb(74 222 128 / 24%);
+  background-image:
+    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(20 83 45 / 44%), transparent 100%),
+    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(22 101 52 / 32%), transparent 100%),
+    linear-gradient(180deg, #17221b 0%, #17251c 52%, #1b2a20 100%);
+}
+
+.dark .feature-gradient-card--threat {
+  border-color: rgb(96 165 250 / 25%);
+  background-image:
+    radial-gradient(ellipse 120% 22% at 30% 24%, rgb(30 64 112 / 45%), transparent 100%),
+    radial-gradient(ellipse 130% 26% at 66% 58%, rgb(30 58 103 / 36%), transparent 100%),
+    linear-gradient(180deg, #171e2a 0%, #192435 52%, #1d2a3b 100%);
+}
+
+.dark .feature-gradient-card--twin {
+  border-color: rgb(148 163 184 / 26%);
+  background-image:
+    radial-gradient(ellipse 115% 20% at 64% 18%, rgb(71 85 105 / 38%), transparent 100%),
+    radial-gradient(ellipse 120% 24% at 35% 52%, rgb(51 65 85 / 34%), transparent 100%),
+    linear-gradient(180deg, #1d2229 0%, #20262e 52%, #252c35 100%);
+}
+
+.dark .feature-gradient-card--remediation {
+  border-color: rgb(251 146 60 / 24%);
+  background-image:
+    radial-gradient(ellipse 120% 22% at 28% 23%, rgb(124 45 18 / 40%), transparent 100%),
+    radial-gradient(ellipse 120% 26% at 70% 52%, rgb(120 53 15 / 32%), transparent 100%),
+    linear-gradient(180deg, #282019 0%, #2b2118 52%, #302419 100%);
+}
+
+@keyframes feature-gradient-drift {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-gradient-card {
+    animation: none;
+  }
 }

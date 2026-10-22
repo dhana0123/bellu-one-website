@@ -91,88 +91,32 @@ body {
 .feature-gradient-card {
   border-color: rgb(148 163 184 / 28%);
   background-color: #f3f4f6;
-  background-size: 150% 150%;
-  animation: feature-gradient-drift 24s ease-in-out infinite alternate;
+  background-image: linear-gradient(rgb(255 255 255 / 26%), rgb(255 255 255 / 26%)), url("/artistic-blurry-colorful-wallpaper-background.jpg");
+  background-position: center;
+  background-size: cover;
+  animation: none;
 }
 
 .dark .feature-gradient-card {
   border-color: rgb(148 163 184 / 20%);
   background-color: #252522;
+  background-image: linear-gradient(rgb(31 18 48 / 42%), rgb(31 18 48 / 42%)), url("/artistic-blurry-colorful-wallpaper-background.jpg");
 }
 
 .feature-gradient-card--graph {
   border-color: rgb(196 181 253 / 48%);
-  background-image:
-    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(221 214 254 / 62%), transparent 100%),
-    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(237 233 254 / 78%), transparent 100%),
-    linear-gradient(180deg, #fcfaff 0%, #f2edff 52%, #e9e0fb 100%);
 }
 
 .feature-gradient-card--threat {
-  border-color: rgb(147 197 253 / 42%);
-  background-image:
-    radial-gradient(ellipse 120% 22% at 30% 24%, rgb(191 219 254 / 62%), transparent 100%),
-    radial-gradient(ellipse 130% 26% at 66% 58%, rgb(219 234 254 / 76%), transparent 100%),
-    linear-gradient(180deg, #f7faff 0%, #eaf3ff 52%, #e1edfc 100%);
+  border-color: rgb(196 181 253 / 48%);
 }
 
 .feature-gradient-card--twin {
-  border-color: rgb(203 213 225 / 70%);
-  background-image:
-    radial-gradient(ellipse 115% 20% at 64% 18%, rgb(226 232 240 / 82%), transparent 100%),
-    radial-gradient(ellipse 120% 24% at 35% 52%, rgb(241 245 249 / 88%), transparent 100%),
-    linear-gradient(180deg, #fafbfc 0%, #f1f3f5 52%, #e9edf1 100%);
+  border-color: rgb(221 214 254 / 64%);
 }
 
 .feature-gradient-card--remediation {
-  border-color: rgb(253 186 116 / 48%);
-  background-image:
-    radial-gradient(ellipse 120% 22% at 28% 23%, rgb(254 215 170 / 64%), transparent 100%),
-    radial-gradient(ellipse 120% 26% at 70% 52%, rgb(255 237 213 / 84%), transparent 100%),
-    linear-gradient(180deg, #fffbf6 0%, #fff1e3 52%, #fce8d3 100%);
-}
-
-.dark .feature-gradient-card--graph {
-  border-color: rgb(167 139 250 / 30%);
-  background-image:
-    radial-gradient(ellipse 115% 20% at 68% 20%, rgb(91 33 182 / 32%), transparent 100%),
-    radial-gradient(ellipse 110% 24% at 42% 52%, rgb(76 29 149 / 28%), transparent 100%),
-    linear-gradient(180deg, #21172d 0%, #251a35 52%, #2a1d3d 100%);
-}
-
-.dark .feature-gradient-card--threat {
-  border-color: rgb(96 165 250 / 25%);
-  background-image:
-    radial-gradient(ellipse 120% 22% at 30% 24%, rgb(30 64 112 / 45%), transparent 100%),
-    radial-gradient(ellipse 130% 26% at 66% 58%, rgb(30 58 103 / 36%), transparent 100%),
-    linear-gradient(180deg, #171e2a 0%, #192435 52%, #1d2a3b 100%);
-}
-
-.dark .feature-gradient-card--twin {
-  border-color: rgb(148 163 184 / 26%);
-  background-image:
-    radial-gradient(ellipse 115% 20% at 64% 18%, rgb(71 85 105 / 38%), transparent 100%),
-    radial-gradient(ellipse 120% 24% at 35% 52%, rgb(51 65 85 / 34%), transparent 100%),
-    linear-gradient(180deg, #1d2229 0%, #20262e 52%, #252c35 100%);
-}
-
-.dark .feature-gradient-card--remediation {
-  border-color: rgb(251 146 60 / 24%);
-  background-image:
-    radial-gradient(ellipse 120% 22% at 28% 23%, rgb(124 45 18 / 40%), transparent 100%),
-    radial-gradient(ellipse 120% 26% at 70% 52%, rgb(120 53 15 / 32%), transparent 100%),
-    linear-gradient(180deg, #282019 0%, #2b2118 52%, #302419 100%);
-}
-
-.feature-vintage {
-  border-color: #b7b3aa;
-  background-color: #d4d1c9;
-  background-image:
-    repeating-linear-gradient(0deg, rgb(62 58 51 / 3%) 0 1px, transparent 1px 4px),
-    linear-gradient(135deg, #e7e4dc 0%, #c7c4bc 100%);
-  background-size: auto;
-  animation: none;
-  filter: grayscale(1) sepia(0.12) contrast(0.96);
+  border-color: rgb(167 139 250 / 42%);
 }
 
 @keyframes feature-gradient-drift {

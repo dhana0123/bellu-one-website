@@ -53,7 +53,7 @@ export const LogoIcon = ({ className, uniColor }: { className?: string; uniColor
             <path
                 transform="translate(220 0) rotate(90)"
                 d="M100 100H152C156.418 100 160 103.582 160 108V165.092C160 168.103 158.309 170.859 155.625 172.224L111.625 194.591C106.303 197.296 100 193.429 100 187.459V100Z"
-                fill="#000"
+                fill={uniColor ? 'currentColor' : 'url(#paint_logo)'}
             />
             <defs>
                 <linearGradient

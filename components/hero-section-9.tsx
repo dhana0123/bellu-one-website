@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { HeroHeader } from '@/components/hero-section-9-header'
 
 export default function HeroSection() {
@@ -31,6 +32,27 @@ export default function HeroSection() {
                             />
                         </div>
 
+                        <div className="relative isolate mx-auto mt-16 max-w-6xl overflow-hidden border border-violet-300/60 bg-violet-950 shadow-2xl shadow-violet-950/20">
+                            <Image
+                                src="/hero-purple-dashboard-bg.jpg"
+                                alt=""
+                                fill
+                                priority
+                                sizes="(max-width: 768px) 100vw, 1152px"
+                                className="object-cover"
+                            />
+                            <div className="absolute inset-0 bg-violet-950/10" aria-hidden="true" />
+                            <div className="relative px-4 py-10 sm:px-8 sm:py-14 md:px-14 md:py-20">
+                                <Image
+                                    src="/security-dashboard-preview-v2.png"
+                                    alt="Bellu AI security dashboard preview with issue severity, security score, and activity trends"
+                                    width={1630}
+                                    height={900}
+                                    priority
+                                    className="h-auto w-full border border-white/40 shadow-2xl shadow-black/30"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>

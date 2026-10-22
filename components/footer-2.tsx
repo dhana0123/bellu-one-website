@@ -24,6 +24,7 @@ const footerLinks = [
             { href: '/company', label: 'Company' },
             { href: '/careers', label: 'Careers' },
             { href: '/get-demo', label: 'Contact' },
+            { href: '/brand', label: 'Brand guidelines' },
         ],
     },
     {

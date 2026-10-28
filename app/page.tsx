@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { LogoIcon } from '@/components/logo'
 import { SiteSidebar } from '@/components/site-sidebar'
+import { HomeArticlesCarousel } from '@/components/home-articles-carousel'
+import { SiteFooter } from '@/components/site-footer'
 
 export const metadata: Metadata = {
     title: 'Bellu AI | Cybersecurity Research',
@@ -25,23 +26,23 @@ export default function Home() {
                         </span>
                         <div className="max-w-2xl">
                             <h1 className="text-balance text-3xl font-medium leading-tight tracking-tight sm:text-4xl">
-                                Building self-defending systems for the AI era.
+                                Building self-defending cybersecurity for the AI era.
                             </h1>
-                            <p className="text-muted-foreground mt-5 text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-5 text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 As AI makes software more capable, it also changes how quickly
                                 threats can emerge and spread. Bellu AI is building a new generation
                                 of cybersecurity: systems that continuously understand their
                                 environment, recognize suspicious change, and respond at the speed
                                 modern technology demands.
                             </p>
-                            <p className="text-muted-foreground mt-4 text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-4 text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 Our approach takes inspiration from biology. Like an immune system,
                                 digital infrastructure should be able to detect what is unfamiliar,
                                 adapt its defenses, and recover when something goes wrong. We are
                                 researching how AI can help systems move beyond alerts and manual
                                 response toward continuous, validated self-defense and self-healing.
                             </p>
-                            <p className="text-muted-foreground mt-4 text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-4 text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 We are also exploring what resilience means for physical AI—from
                                 robots to intelligent machines that interact with the real world.
                                 Our goal is to help build technology that can protect itself while
@@ -73,13 +74,13 @@ export default function Home() {
                         </span>
                         <div className="max-w-2xl">
                             <h2 className="mt-2 text-xl font-medium tracking-tight">Bellu Continuous</h2>
-                            <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-2 text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 Bellu Continuous is our first step toward infrastructure that can
                                 defend itself. It continuously studies an organization’s
                                 environment, helping security teams find weaknesses—including
                                 previously unknown vulnerabilities—before they become incidents.
                             </p>
-                            <p className="text-muted-foreground mt-3 text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-3 text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 AI agents investigate signals across the stack, while knowledge
                                 graphs connect code, cloud resources, identities, dependencies, and
                                 runtime activity. That shared context helps each investigation
@@ -101,7 +102,7 @@ export default function Home() {
                         </span>
                         <div>
                             <h2 className="text-xl font-medium tracking-tight">Join the team</h2>
-                            <p className="text-muted-foreground mt-2 max-w-xl text-sm leading-relaxed">
+                            <p className="text-muted-foreground mt-2 max-w-xl text-sm leading-relaxed font-[family-name:var(--font-lora)]">
                                 We&apos;re building a new generation of cybersecurity for a world
                                 transformed by AI. Bellu brings together curious researchers,
                                 engineers, and makers to tackle hard problems in autonomous
@@ -118,17 +119,13 @@ export default function Home() {
                         </div>
                     </section>
 
-                    <footer className="flex flex-col gap-3 border-t py-5 text-xs sm:flex-row sm:items-center sm:justify-between">
-                        <Link href="/" className="inline-flex items-center gap-2 font-medium">
-                            <LogoIcon uniColor />
-                            Bellu AI
-                        </Link>
-                        <p className="text-muted-foreground">
-                            Cybersecurity research, accelerated by AI.
-                        </p>
-                        <span className="text-muted-foreground">© Bellu AI 2026</span>
-                    </footer>
                 </main>
+
+                <HomeArticlesCarousel />
+
+                <div className="lg:col-span-2">
+                    <SiteFooter />
+                </div>
             </div>
         </div>
     )

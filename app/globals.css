@@ -93,6 +93,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: var(--font-lora), Georgia, serif;
+}
+
 .feature-gradient-card {
   border-color: rgb(148 163 184 / 28%);
   background-color: #f3f4f6;

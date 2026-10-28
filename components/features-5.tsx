@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Bot, Check, Cloud, Code2, GitBranch, LockKeyhole, Network, Search, ShieldCheck, type LucideIcon } from 'lucide-react'
+import { ArrowRight, Bot, Building2, Check, Cloud, Code2, GitBranch, LockKeyhole, Network, Search, ShieldCheck, type LucideIcon } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { productFeatures, type ProductFeatureId } from '@/lib/product-features'
@@ -168,30 +168,65 @@ function SecurityGraphIllustration() {
 
     return (
         <div aria-hidden="true" className="absolute inset-4 flex items-center justify-center sm:inset-8">
-            <div className="relative w-full max-w-lg rounded-none border border-violet-500/25 bg-card p-4 sm:p-6">
-                <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
-                    <div>
-                        <p className="text-sm font-semibold">Infrastructure graph</p>
-                        <p className="text-muted-foreground mt-1 text-xs">Connected assets and relationships</p>
-                    </div>
-                    <span className="flex items-center gap-2 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400">
-                        <span className="size-1.5 rounded-full bg-emerald-500 motion-safe:animate-pulse" />
-                        Mapped
-                    </span>
-                </div>
-                <div className="relative mt-5 h-56 overflow-hidden rounded-none bg-muted/50 sm:h-64">
-                    <svg className="absolute inset-0 size-full text-violet-500" viewBox="0 0 400 240" fill="none">
-                        <path d="M78 54L200 120L322 54M78 186L200 120L322 186M78 54L78 186M322 54L322 186" stroke="currentColor" strokeOpacity=".18" strokeWidth="2" />
-                        <path d="M78 54L200 120L322 54M78 186L200 120" stroke="currentColor" strokeOpacity=".65" strokeWidth="2" strokeDasharray="5 6" />
-                    </svg>
-                    {nodes.map(({ label, icon: Icon, position }) => (
-                        <div key={label} className={`absolute ${position} flex items-center gap-2 rounded-none border bg-card px-2.5 py-2 motion-safe:animate-pulse sm:px-3`}>
-                            <Icon className="size-4 text-violet-600 dark:text-violet-400" />
-                            <span className="text-[10px] font-medium sm:text-xs">{label}</span>
+            <div className="relative w-full max-w-lg">
+                <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-xl border border-violet-500/15 bg-card/80 shadow-xl shadow-violet-950/10" />
+                <div className="relative rounded-xl border border-violet-500/25 bg-card p-4 pb-20 shadow-xl shadow-violet-950/10 sm:p-6 sm:pb-20">
+                    <div className="flex items-start justify-between gap-3">
+                        <div>
+                            <p className="text-muted-foreground text-[10px] font-medium uppercase tracking-wider">Security graph</p>
+                            <p className="mt-1 text-sm font-semibold">Temporal knowledge graph</p>
+                            <p className="text-muted-foreground mt-1 text-xs">Asset relationships, across time</p>
                         </div>
-                    ))}
-                    <div className="absolute left-1/2 top-1/2 flex size-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-none bg-violet-950 text-white ring-4 ring-violet-500/20 dark:bg-violet-200 dark:text-violet-950">
-                        <Network className="size-7" />
+                        <span className="flex shrink-0 items-center gap-2 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400">
+                            <span className="size-1.5 rounded-full bg-emerald-500 motion-safe:animate-pulse" />
+                            Live
+                        </span>
+                    </div>
+                    <div className="mt-5 flex items-center justify-between border-y py-2.5">
+                        <span className="text-muted-foreground text-[10px] sm:text-xs">Assets <span className="text-foreground ml-1 font-medium">24</span></span>
+                        <span className="text-muted-foreground text-[10px] sm:text-xs">Changes <span className="text-foreground ml-1 font-medium">18</span></span>
+                        <span className="text-muted-foreground rounded-md border px-2 py-1 text-[10px] sm:text-xs">Last 30 days</span>
+                    </div>
+                    <div className="relative mt-3 h-48 overflow-hidden rounded-lg border bg-muted/40 sm:h-56">
+                        <svg className="absolute inset-0 size-full text-violet-500" viewBox="0 0 400 240" fill="none">
+                            <path d="M72 54L200 120L328 54M72 186L200 120L328 186M72 54L72 186M328 54L328 186" stroke="currentColor" strokeOpacity=".18" strokeWidth="2" />
+                            <path d="M72 54L200 120L328 54M72 186L200 120" stroke="currentColor" strokeOpacity=".65" strokeWidth="2" strokeDasharray="5 6" />
+                        </svg>
+                        {nodes.map(({ label, icon: Icon, position }) => (
+                            <div key={label} className={`absolute ${position} flex items-center gap-2 rounded-lg border bg-card px-2.5 py-2 shadow-sm sm:px-3`}>
+                                <Icon className="size-4 text-violet-600 dark:text-violet-400" />
+                                <span className="text-[10px] font-medium sm:text-xs">{label}</span>
+                            </div>
+                        ))}
+                        <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-full border bg-card/95 px-2.5 py-1.5 text-[9px] text-muted-foreground shadow-sm sm:bottom-4 sm:text-[10px]">
+                            <span>May 02</span>
+                            <span className="h-px w-6 bg-violet-500/50" />
+                            <span className="size-1.5 rounded-full bg-violet-500" />
+                            <span className="h-px w-6 bg-violet-500/50" />
+                            <span>Today</span>
+                        </div>
+                        <div className="absolute left-1/2 top-1/2 flex size-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-violet-950 text-white shadow-lg shadow-violet-950/25 ring-4 ring-violet-500/15 dark:bg-violet-200 dark:text-violet-950">
+                            <Network className="size-6" />
+                        </div>
+                    </div>
+                    <div className="text-muted-foreground absolute bottom-5 left-6 flex items-center gap-2 text-[10px] sm:text-xs">
+                        <span className="size-1.5 rounded-full bg-violet-500" />
+                        Updated just now
+                    </div>
+                    <div className="absolute bottom-3 right-3 z-10 w-44 rounded-lg border bg-card p-3 shadow-xl shadow-violet-950/20 ring-1 ring-black/5 sm:bottom-4 sm:right-4 sm:w-48">
+                        <div className="flex items-center gap-2">
+                            <span className="flex size-7 items-center justify-center rounded-md bg-violet-500/10 text-violet-600 dark:text-violet-400">
+                                <Building2 className="size-4" />
+                            </span>
+                            <div className="min-w-0">
+                                <p className="truncate text-xs font-semibold">Acme workspace</p>
+                                <p className="text-muted-foreground text-[10px]">Company overview</p>
+                            </div>
+                        </div>
+                        <div className="mt-2 flex items-center justify-between border-t pt-2 text-[10px]">
+                            <span className="text-muted-foreground">Assets mapped</span>
+                            <span className="font-semibold">24</span>
+                        </div>
                     </div>
                 </div>
             </div>

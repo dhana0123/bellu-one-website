@@ -26,6 +26,21 @@ export default function ProductsPage() {
                         </p>
 
                         <div className="mt-16 grid gap-4 sm:grid-cols-2">
+                            <article className="rounded-2xl border border-violet-300/60 bg-violet-50/50 p-6 sm:col-span-2 sm:p-8">
+                                <p className="text-muted-foreground text-sm font-medium">Featured product</p>
+                                <h2 className="mt-3 text-2xl font-semibold tracking-tight">Bellu Continuous</h2>
+                                <p className="text-muted-foreground mt-3 max-w-3xl leading-relaxed">
+                                    Continuous security intelligence that connects threat discovery,
+                                    infrastructure context, safe testing, and remediation in one platform.
+                                </p>
+                                <Link
+                                    href="/products/bellu-continuous"
+                                    className="mt-6 inline-flex items-center gap-2 text-sm font-medium underline underline-offset-4"
+                                >
+                                    Explore Bellu Continuous
+                                    <ArrowRight className="size-4" aria-hidden="true" />
+                                </Link>
+                            </article>
                             {Object.values(productFeatures).map((product) => (
                                 <article key={product.id} className="rounded-2xl border p-6 sm:p-8">
                                     <p className="text-muted-foreground text-sm font-medium">{product.label}</p>

@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bellu AI — Customer relationships, beautifully connected",
+  title: "Bellu AI | Cybersecurity Research, Accelerated by AI",
   description:
-    "Bring every customer conversation, account signal, and next step together with Bellu AI.",
+    "Bellu AI is a cybersecurity research company using AI to uncover, understand, and help address emerging threats.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

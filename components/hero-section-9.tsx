@@ -13,11 +13,11 @@ export default function HeroSection() {
                 <section className="pt-24 lg:pt-40">
                     <div className="mx-auto max-w-7xl px-6">
                         <Link
-                            href="/"
+                            href="/products/bellu-continuous"
                             className="mx-auto flex w-fit items-center gap-2 font-medium"
                         >
-                            <span>New</span>
-                            <span className="text-muted-foreground">Introducing Bellu AI</span>
+                            <span>Product</span>
+                            <span className="text-muted-foreground">Bellu Continuous</span>
 
                             <ArrowRight className="size-3.5" />
                         </Link>

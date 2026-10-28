@@ -11,6 +11,7 @@ const footerLinks = [
         name: 'Products',
         links: [
             { href: '/products', label: 'All products' },
+            { href: '/products/bellu-continuous', label: 'Bellu Continuous' },
             ...Object.values(productFeatures).map((product) => ({
                 href: `/products/${product.slug}`,
                 label: product.label,
@@ -45,8 +46,10 @@ export default function Footer() {
                         <Link
                             href="/"
                             aria-label="go home"
+                            className="inline-flex items-center gap-2 text-white"
                         >
                             <LogoIcon uniColor />
+                            <span className="text-lg font-semibold tracking-tight">Bellu AI</span>
                         </Link>
                     </div>
 

@@ -30,14 +30,14 @@ export default function BlogPage() {
                                     <div>
                                         <h2 className="text-lg font-medium tracking-tight">
                                             <Link
-                                                href="/blog/introducing-bellu-continuous"
+                                                href="/blog/introducing-bellu-one"
                                                 className="transition-colors hover:text-violet-700"
                                             >
-                                                Introducing Bellu Continuous
+                                                Introducing Bellu One
                                             </Link>
                                         </h2>
                                         <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
-                                            Why we are building continuous security intelligence:
+                                            Why we are building open source security intelligence:
                                             AI agents, connected knowledge graphs, and a path toward
                                             infrastructure that can defend and heal itself.
                                         </p>

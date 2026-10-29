@@ -14,7 +14,7 @@ const navigation = [
 
 export function SiteSidebar({ activeItem }: { activeItem: string }) {
     const [menuOpen, setMenuOpen] = useState(false)
-    const isProductActive = activeItem === 'Product' || activeItem === 'Bellu Continuous'
+    const isProductActive = activeItem === 'Product' || activeItem === 'Bellu One'
 
     useEffect(() => {
         if (!menuOpen) return
@@ -87,7 +87,7 @@ export function SiteSidebar({ activeItem }: { activeItem: string }) {
                         })}
                         <li className="mt-2">
                             <Link
-                                href="/products/bellu-continuous"
+                                href="/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-current={isProductActive ? 'page' : undefined}
@@ -97,7 +97,7 @@ export function SiteSidebar({ activeItem }: { activeItem: string }) {
                                         : 'border-foreground'
                                 }`}
                             >
-                                Bellu Continuous
+                                Bellu One
                             </Link>
                         </li>
                         <li>
@@ -166,7 +166,7 @@ export function SiteSidebar({ activeItem }: { activeItem: string }) {
                             })}
                             <li className="pt-2">
                                 <Link
-                                    href="/products/bellu-continuous"
+                                    href="/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-current={isProductActive ? 'page' : undefined}
@@ -177,7 +177,7 @@ export function SiteSidebar({ activeItem }: { activeItem: string }) {
                                             : 'border-foreground'
                                     }`}
                                 >
-                                    Bellu Continuous
+                                    Bellu One
                                 </Link>
                             </li>
                             <li>

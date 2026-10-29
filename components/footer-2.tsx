@@ -11,7 +11,7 @@ const footerLinks = [
         name: 'Products',
         links: [
             { href: '/products', label: 'All products' },
-            { href: '/products/bellu-continuous', label: 'Bellu Continuous' },
+            { href: '/', label: 'Bellu One' },
             ...Object.values(productFeatures).map((product) => ({
                 href: `/products/${product.slug}`,
                 label: product.label,

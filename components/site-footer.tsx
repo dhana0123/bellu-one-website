@@ -23,7 +23,7 @@ export function SiteFooter() {
 
                 <nav aria-label="Product links">
                     <ul className="text-muted-foreground space-y-1.5 font-mono text-xs">
-                        <li><Link className="transition-colors hover:text-foreground" href="/products/bellu-continuous">Bellu Continuous</Link></li>
+                        <li><Link className="transition-colors hover:text-foreground" href="/">Bellu One</Link></li>
                         <li><Link className="transition-colors hover:text-foreground" href="/products">All products</Link></li>
                         <li><Link className="transition-colors hover:text-foreground" href="/get-demo">Get a demo</Link></li>
                     </ul>

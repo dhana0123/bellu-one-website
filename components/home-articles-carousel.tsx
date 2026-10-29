@@ -7,12 +7,12 @@ import { useRef } from 'react'
 
 const articles = [
     {
-        title: 'Introducing Bellu Continuous',
+        title: 'Introducing Bellu One',
         date: '2026.10.28',
         dateTime: '2026-10-28',
-        href: '/blog/introducing-bellu-continuous',
+        href: '/blog/introducing-bellu-one',
         description:
-            'A connected approach to infrastructure security, AI investigation, and verified response.',
+            'Our open source, connected approach to infrastructure security, AI investigation, and verified response.',
     },
 ]
 

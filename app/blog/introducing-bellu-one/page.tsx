@@ -12,12 +12,12 @@ const blogSerif = Lora({
 })
 
 export const metadata: Metadata = {
-    title: 'Introducing Bellu Continuous | Bellu AI',
+    title: 'Introducing Bellu One | Bellu AI',
     description:
-        'Why we are building Bellu Continuous, a connected approach to infrastructure security, threat discovery, safe testing, and remediation.',
+        'Why we are building Bellu One, an open source, connected approach to infrastructure security, threat discovery, safe testing, and remediation.',
 }
 
-export default function IntroducingBelluContinuousPage() {
+export default function IntroducingBelluOnePage() {
     return (
         <div className="mx-auto min-h-screen max-w-6xl border-x px-5 font-sans sm:px-8">
             <div className="grid min-h-screen grid-cols-1 lg:grid-cols-[150px_minmax(0,1fr)]">
@@ -35,11 +35,11 @@ export default function IntroducingBelluContinuousPage() {
 
                             <header className="mt-8 border-b pb-6">
                                 <h1 className="text-balance text-3xl font-medium leading-tight tracking-tight sm:text-4xl">
-                                    Introducing Bellu Continuous
+                                    Introducing Bellu One
                                 </h1>
                                 <p className="text-muted-foreground mt-4 text-sm">
-                                    A more connected way to understand and defend modern
-                                    infrastructure.
+                                    An open source, more connected way to understand and defend
+                                    modern infrastructure.
                                 </p>
                                 <div className="text-muted-foreground mt-6 flex items-center justify-between gap-4 font-mono text-xs">
                                     <span>By the Bellu AI Team</span>
@@ -50,15 +50,14 @@ export default function IntroducingBelluContinuousPage() {
                             <figure className="mt-8">
                                 <Image
                                     src="/security-dashboard-preview-v2.png"
-                                    alt="Bellu Continuous security dashboard with issue severity, security score, and activity trends"
+                                    alt="Bellu One security dashboard with issue severity, security score, and activity trends"
                                     width={1630}
                                     height={900}
                                     priority
                                     className="h-auto w-full border"
                                 />
                                 <figcaption className="text-muted-foreground mt-2 text-xs">
-                                    A view of security posture and issue activity in Bellu
-                                    Continuous.
+                                    A view of security posture and issue activity in Bellu One.
                                 </figcaption>
                             </figure>
 
@@ -77,9 +76,11 @@ export default function IntroducingBelluContinuousPage() {
                                     Teams then have to assemble the surrounding context themselves:
                                     which asset is affected, what can reach it, which identity can
                                     access it, and what the likely impact might be. We are building
-                                    Bellu Continuous to help connect that investigation. It brings
+                                    Bellu One to help connect that investigation. It brings
                                     infrastructure context, AI-assisted discovery, safe scenario
                                     testing, and remediation into one continuous security workflow.
+                                    And because Bellu One is open source, every part of that
+                                    workflow is open to inspection, extension, and self-hosting.
                                 </p>
 
                                 <h2 className="pt-3 text-xl font-medium leading-tight tracking-tight">
@@ -136,9 +137,10 @@ export default function IntroducingBelluContinuousPage() {
                                     This is not a claim that an agent can understand every system
                                     or safely make every decision on its own. Security work
                                     requires evidence, clear boundaries, and human judgment.
-                                    Bellu Continuous is being built to make investigation more
+                                    Bellu One is being built to make investigation more
                                     continuous and context-rich, while keeping the reasoning and
-                                    resulting actions open to review.
+                                    resulting actions open to review—in both senses, since the
+                                    code itself is open source.
                                 </p>
 
                                 <h2 className="pt-3 text-xl font-medium leading-tight tracking-tight">
@@ -148,7 +150,7 @@ export default function IntroducingBelluContinuousPage() {
                                 <p>
                                     Understanding a risk is only part of the job. A proposed
                                     change can close one exposure and create another. Bellu
-                                    Continuous includes an infrastructure digital twin: a model
+                                    One includes an infrastructure digital twin: a model
                                     of relevant environment state where teams can simulate attack
                                     scenarios, assess exposure, and evaluate proposed changes
                                     without experimenting on live systems.
@@ -220,9 +222,12 @@ export default function IntroducingBelluContinuousPage() {
                                 </h2>
 
                                 <p>
-                                    Bellu Continuous is our first product and an early step
+                                    Bellu One is our first product and an early step
                                     toward infrastructure that can better understand its own
-                                    security. Our longer-term direction is inspired in part by
+                                    security. We are releasing it as open source so that teams,
+                                    researchers, and the wider community can study how it works,
+                                    contribute improvements, and run it on their own terms. Our
+                                    longer-term direction is inspired in part by
                                     biological immune systems: continuously sensing change,
                                     recognizing what is unfamiliar, adapting defenses, and
                                     recovering when something goes wrong.
@@ -242,18 +247,19 @@ export default function IntroducingBelluContinuousPage() {
                                     physical AI—robots and intelligent machines that interact
                                     with the real world. Those systems will need security and
                                     resilience across both their software and their physical
-                                    behavior. Bellu Continuous is where we begin: connecting
-                                    context and making defense a continuous process.
+                                    behavior. Bellu One is where we begin: connecting
+                                    context, making defense a continuous process, and building it
+                                    in the open.
                                 </p>
                             </div>
 
                             <p className="mt-10 border-t pt-6 text-sm leading-relaxed">
                                 Learn more about the platform on the{' '}
                                 <Link
-                                    href="/products/bellu-continuous"
+                                    href="/"
                                     className="font-medium underline underline-offset-4 transition-colors hover:text-violet-700"
                                 >
-                                    Bellu Continuous product page
+                                    Bellu One landing page
                                 </Link>
                                 .
                             </p>

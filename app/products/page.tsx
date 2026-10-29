@@ -38,18 +38,18 @@ export default function ProductsPage() {
                         <article className="max-w-2xl">
                             <p className="text-muted-foreground text-xs">Platform</p>
                             <h2 className="mt-2 text-xl font-medium tracking-tight">
-                                Bellu Continuous
+                                Bellu One
                             </h2>
                             <p className="text-muted-foreground mt-3 text-sm leading-relaxed">
-                                Continuous security intelligence that connects threat discovery,
+                                Open source security intelligence that connects threat discovery,
                                 infrastructure context, safe testing, and remediation in one
-                                platform.
+                                platform you can inspect, extend, and self-host.
                             </p>
                             <Link
-                                href="/products/bellu-continuous"
+                                href="/"
                                 className="mt-4 inline-flex items-center gap-2 text-sm font-medium underline underline-offset-4 transition-colors hover:text-violet-700"
                             >
-                                Explore Bellu Continuous
+                                Explore Bellu One
                                 <ArrowRight className="size-4" aria-hidden="true" />
                             </Link>
                         </article>
